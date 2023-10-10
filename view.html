@@ -20,16 +20,6 @@
       padding: 25px;
     }
   </style>
-  <script>
-    function ok(){
-        if(confirm("게시물을 삭제할까요?")){
-            alert("삭제되었습니다");
-            
-        }else{
-            alert("취소되었습니다")
-        }
-    }
-  </script>
 </head>
 <body>
 
@@ -45,7 +35,7 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="#">Home</a></li>
         <li><a href="add.html">Add</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -59,103 +49,25 @@
     <h1>Word Master</h1>      
   </div>
 </div>
-  
+
 <div class="container-fluid bg-3 text-center">    
-  <h3>Words</h3><br>
+  <h3>Select Menu</h3><br>
   <div class="row">
     <div class="col-sm-3">
-      <h4>1</h4>
-    </div>
-    <div class="col-sm-3">
-      <h4>난이도 : 1</h4>
+      <h3>1</h3>
     </div>
     <div class="col-sm-3"> 
-      <h4>apple</h4>
+      <h3>난이도 : 1</h3>
     </div>
     <div class="col-sm-3"> 
-      <h4>사과</h4>
+      <h3>단어 : apple</h3>
     </div>
     <div class="col-sm-3">
-      <form>
-        <button><a href="edit.html"> edit </a></button>
-        <input type="button" value="Delete" onclick="ok()">
-      </form>
+      <h3>뜻 : 사과</h3>
     </div>
   </div>
 </div><br>
 
-<div class="container-fluid bg-3 text-center">    
-  <div class="row">
-    <div class="col-sm-3">
-      <h4>2</h4>
-    </div>
-    <div class="col-sm-3">
-      <h4>난이도 : 1</h4>
-    </div>
-    <div class="col-sm-3"> 
-      <h4>banana</h4>
-    </div>
-    <div class="col-sm-3"> 
-      <h4>바나나</h4>
-    </div>
-    <div class="col-sm-3">
-        <form>
-            <button><a href="edit.html"> edit </a></button>
-            <input type="button" value="Delete" onclick="ok()">
-        </form>
-    </div>
-  </div>
-</div><br>
-
-<div class="container-fluid bg-3 text-center">    
-  <div class="row">
-    <div class="col-sm-3">
-      <h4>3</h4>
-    </div>
-    <div class="col-sm-3">
-      <h4>난이도 : 2</h4>
-    </div>
-    <div class="col-sm-3"> 
-      <h4>grape</h4>
-    </div>
-    <div class="col-sm-3"> 
-      <h4>포도</h4>
-    </div>
-    <div class="col-sm-3">
-        <form>
-            <button><a href="edit.html"> edit </a></button>
-            <input type="button" value="Delete" onclick="ok()">
-        </form>    
-    </div>
-  </div>
-</div><br>
-
-<div class="container-fluid bg-3 text-center">    
-  <div class="row">
-    <div class="col-sm-3">
-      <h4>4</h4>
-    </div>
-    <div class="col-sm-3">
-      <h4>난이도 : 2</h4>
-    </div>
-    <div class="col-sm-3"> 
-      <h4>peach</h4>
-    </div>
-    <div class="col-sm-3"> 
-      <h4>복숭아</h4>
-    </div>
-    <div class="col-sm-3">
-        <form>
-            <button><a href="edit.html"> edit </a></button>
-            <input type="button" value="Delete" onclick="ok()">
-        </form>    
-    </div>
-  </div>
-</div><br>
-
-<footer class="container-fluid text-center">
-  <p>Word Master</p>
-</footer>
 
 </body>
 </html>
